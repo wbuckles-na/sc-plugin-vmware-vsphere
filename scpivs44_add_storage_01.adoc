@@ -41,7 +41,7 @@ SnapCenter Plug-in for VMware vSphere performs backup and restore operations on 
 If you are using the SnapCenter Plug-in for VMware vSphere to support application-based backups on VMDKs, then you must use the SnapCenter GUI to enter storage authentication details and register storage systems.
 
 * For vCenters in linked mode, you must separately add storage systems to each vCenter.
-* If you are adding SVM, names for storage VMs must resolve to management LIFs.
+* If you are adding an SVM, the SVM name must resolve to the IP address of the management LIF.
 +
 If you have added entries to the _etc\hosts_ file for storage VM names in SnapCenter, you must ensure that these are also resolvable from the virtual appliance. If they are not, you should add similar entries to the _etc/hosts_ file within the appliance.
 +
